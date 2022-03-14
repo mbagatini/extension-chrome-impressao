@@ -1,0 +1,19 @@
+{
+  "name": "Impressão bobina no Wix",
+  "description": "Imprimir relatório para impressora térmica para o Wix",
+  "author": "Morgana Bagatini",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "storage",
+    "tabs",
+    "activeTab",
+    "scripting",
+    "http://*/",
+    "https://*/"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": ["https://manage.wix.com//*"]
+}
